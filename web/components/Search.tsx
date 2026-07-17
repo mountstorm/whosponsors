@@ -26,13 +26,18 @@ export default function Search() {
     }
     const ctrl = new AbortController();
     const t = setTimeout(async () => {
-      const res = await fetch(`/api/search?q=${encodeURIComponent(q)}`, {
-        signal: ctrl.signal
-      });
-      if (res.ok) {
-        setResults(await res.json());
-        setOpen(true);
-        setActive(-1);
+      try {
+        const res = await fetch(`/api/search?q=${encodeURIComponent(q)}`, {
+          signal: ctrl.signal
+        });
+        if (res.ok) {
+          setResults(await res.json());
+          setOpen(true);
+          setActive(-1);
+        }
+      } catch (err) {
+        // Aborting a stale request on keystroke is expected, not an error.
+        if ((err as Error).name !== 'AbortError') throw err;
       }
     }, 150);
     return () => {
