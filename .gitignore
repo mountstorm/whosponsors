@@ -1,0 +1,6 @@
+data/raw/
+data/processed/h1b.db
+node_modules/
+.next/
+__pycache__/
+.DS_Store

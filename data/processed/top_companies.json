@@ -1,0 +1,3732 @@
+[
+ {
+  "name": "COGNIZANT TECH SOLUTIONS US CORP",
+  "slug": "cognizant-tech-solutions-us-corp",
+  "allTimeApprovals": 179480,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 1575,
+    "denials": 3478
+   },
+   {
+    "year": 2010,
+    "approvals": 7005,
+    "denials": 280
+   },
+   {
+    "year": 2011,
+    "approvals": 9590,
+    "denials": 667
+   },
+   {
+    "year": 2012,
+    "approvals": 16156,
+    "denials": 774
+   },
+   {
+    "year": 2013,
+    "approvals": 1079,
+    "denials": 14
+   },
+   {
+    "year": 2014,
+    "approvals": 18672,
+    "denials": 1283
+   },
+   {
+    "year": 2015,
+    "approvals": 17034,
+    "denials": 724
+   },
+   {
+    "year": 2016,
+    "approvals": 22521,
+    "denials": 828
+   },
+   {
+    "year": 2017,
+    "approvals": 29414,
+    "denials": 1040
+   },
+   {
+    "year": 2018,
+    "approvals": 9276,
+    "denials": 4357
+   },
+   {
+    "year": 2019,
+    "approvals": 13400,
+    "denials": 5983
+   },
+   {
+    "year": 2020,
+    "approvals": 14763,
+    "denials": 4024
+   },
+   {
+    "year": 2021,
+    "approvals": 8891,
+    "denials": 232
+   },
+   {
+    "year": 2022,
+    "approvals": 6127,
+    "denials": 61
+   },
+   {
+    "year": 2023,
+    "approvals": 3977,
+    "denials": 150
+   }
+  ]
+ },
+ {
+  "name": "INFOSYS LIMITED",
+  "slug": "infosys-limited",
+  "allTimeApprovals": 138719,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 3625,
+    "denials": 293
+   },
+   {
+    "year": 2010,
+    "approvals": 7217,
+    "denials": 317
+   },
+   {
+    "year": 2011,
+    "approvals": 10069,
+    "denials": 238
+   },
+   {
+    "year": 2012,
+    "approvals": 9886,
+    "denials": 396
+   },
+   {
+    "year": 2013,
+    "approvals": 12882,
+    "denials": 566
+   },
+   {
+    "year": 2014,
+    "approvals": 10445,
+    "denials": 292
+   },
+   {
+    "year": 2015,
+    "approvals": 9410,
+    "denials": 133
+   },
+   {
+    "year": 2016,
+    "approvals": 13928,
+    "denials": 432
+   },
+   {
+    "year": 2017,
+    "approvals": 13894,
+    "denials": 799
+   },
+   {
+    "year": 2018,
+    "approvals": 6011,
+    "denials": 2135
+   },
+   {
+    "year": 2019,
+    "approvals": 5516,
+    "denials": 2563
+   },
+   {
+    "year": 2020,
+    "approvals": 9846,
+    "denials": 3664
+   },
+   {
+    "year": 2021,
+    "approvals": 15426,
+    "denials": 470
+   },
+   {
+    "year": 2022,
+    "approvals": 7115,
+    "denials": 72
+   },
+   {
+    "year": 2023,
+    "approvals": 3449,
+    "denials": 83
+   }
+  ]
+ },
+ {
+  "name": "TATA CONSULTANCY SVCS LTD",
+  "slug": "tata-consultancy-svcs-ltd",
+  "allTimeApprovals": 114792,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 374,
+    "denials": 74
+   },
+   {
+    "year": 2010,
+    "approvals": 290,
+    "denials": 11
+   },
+   {
+    "year": 2011,
+    "approvals": 1898,
+    "denials": 152
+   },
+   {
+    "year": 2012,
+    "approvals": 8180,
+    "denials": 322
+   },
+   {
+    "year": 2013,
+    "approvals": 7669,
+    "denials": 282
+   },
+   {
+    "year": 2014,
+    "approvals": 10889,
+    "denials": 603
+   },
+   {
+    "year": 2015,
+    "approvals": 9178,
+    "denials": 417
+   },
+   {
+    "year": 2016,
+    "approvals": 12164,
+    "denials": 852
+   },
+   {
+    "year": 2017,
+    "approvals": 15017,
+    "denials": 960
+   },
+   {
+    "year": 2018,
+    "approvals": 8802,
+    "denials": 1903
+   },
+   {
+    "year": 2019,
+    "approvals": 7615,
+    "denials": 2144
+   },
+   {
+    "year": 2020,
+    "approvals": 8425,
+    "denials": 943
+   },
+   {
+    "year": 2021,
+    "approvals": 10523,
+    "denials": 678
+   },
+   {
+    "year": 2022,
+    "approvals": 9991,
+    "denials": 341
+   },
+   {
+    "year": 2023,
+    "approvals": 3777,
+    "denials": 189
+   }
+  ]
+ },
+ {
+  "name": "WIPRO LIMITED",
+  "slug": "wipro-limited",
+  "allTimeApprovals": 74803,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 3699,
+    "denials": 170
+   },
+   {
+    "year": 2010,
+    "approvals": 3256,
+    "denials": 145
+   },
+   {
+    "year": 2011,
+    "approvals": 5712,
+    "denials": 512
+   },
+   {
+    "year": 2012,
+    "approvals": 7192,
+    "denials": 187
+   },
+   {
+    "year": 2013,
+    "approvals": 6999,
+    "denials": 272
+   },
+   {
+    "year": 2014,
+    "approvals": 9259,
+    "denials": 419
+   },
+   {
+    "year": 2015,
+    "approvals": 6538,
+    "denials": 379
+   },
+   {
+    "year": 2016,
+    "approvals": 7175,
+    "denials": 358
+   },
+   {
+    "year": 2017,
+    "approvals": 7009,
+    "denials": 376
+   },
+   {
+    "year": 2018,
+    "approvals": 3170,
+    "denials": 713
+   },
+   {
+    "year": 2019,
+    "approvals": 3131,
+    "denials": 1100
+   },
+   {
+    "year": 2020,
+    "approvals": 3591,
+    "denials": 550
+   },
+   {
+    "year": 2021,
+    "approvals": 4895,
+    "denials": 209
+   },
+   {
+    "year": 2022,
+    "approvals": 2271,
+    "denials": 62
+   },
+   {
+    "year": 2023,
+    "approvals": 906,
+    "denials": 53
+   }
+  ]
+ },
+ {
+  "name": "MICROSOFT CORPORATION",
+  "slug": "microsoft-corporation",
+  "allTimeApprovals": 64132,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 3295,
+    "denials": 26
+   },
+   {
+    "year": 2010,
+    "approvals": 3669,
+    "denials": 16
+   },
+   {
+    "year": 2011,
+    "approvals": 3814,
+    "denials": 40
+   },
+   {
+    "year": 2012,
+    "approvals": 3432,
+    "denials": 33
+   },
+   {
+    "year": 2013,
+    "approvals": 3892,
+    "denials": 30
+   },
+   {
+    "year": 2014,
+    "approvals": 2980,
+    "denials": 25
+   },
+   {
+    "year": 2015,
+    "approvals": 2827,
+    "denials": 42
+   },
+   {
+    "year": 2016,
+    "approvals": 3662,
+    "denials": 75
+   },
+   {
+    "year": 2017,
+    "approvals": 4092,
+    "denials": 82
+   },
+   {
+    "year": 2018,
+    "approvals": 4477,
+    "denials": 68
+   },
+   {
+    "year": 2019,
+    "approvals": 5274,
+    "denials": 175
+   },
+   {
+    "year": 2020,
+    "approvals": 7000,
+    "denials": 117
+   },
+   {
+    "year": 2021,
+    "approvals": 6443,
+    "denials": 58
+   },
+   {
+    "year": 2022,
+    "approvals": 7209,
+    "denials": 74
+   },
+   {
+    "year": 2023,
+    "approvals": 2066,
+    "denials": 46
+   }
+  ]
+ },
+ {
+  "name": "ACCENTURE LLP",
+  "slug": "accenture-llp",
+  "allTimeApprovals": 49574,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 153,
+    "denials": 8
+   },
+   {
+    "year": 2010,
+    "approvals": 97,
+    "denials": 3
+   },
+   {
+    "year": 2011,
+    "approvals": 970,
+    "denials": 13
+   },
+   {
+    "year": 2012,
+    "approvals": 4401,
+    "denials": 59
+   },
+   {
+    "year": 2013,
+    "approvals": 4270,
+    "denials": 112
+   },
+   {
+    "year": 2014,
+    "approvals": 4693,
+    "denials": 151
+   },
+   {
+    "year": 2015,
+    "approvals": 5908,
+    "denials": 182
+   },
+   {
+    "year": 2016,
+    "approvals": 6930,
+    "denials": 96
+   },
+   {
+    "year": 2017,
+    "approvals": 5130,
+    "denials": 189
+   },
+   {
+    "year": 2018,
+    "approvals": 3060,
+    "denials": 614
+   },
+   {
+    "year": 2019,
+    "approvals": 3120,
+    "denials": 923
+   },
+   {
+    "year": 2020,
+    "approvals": 4572,
+    "denials": 467
+   },
+   {
+    "year": 2021,
+    "approvals": 3041,
+    "denials": 60
+   },
+   {
+    "year": 2022,
+    "approvals": 2231,
+    "denials": 19
+   },
+   {
+    "year": 2023,
+    "approvals": 998,
+    "denials": 17
+   }
+  ]
+ },
+ {
+  "name": "DELOITTE CONSULTING LLP",
+  "slug": "deloitte-consulting-llp",
+  "allTimeApprovals": 48305,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 763,
+    "denials": 11
+   },
+   {
+    "year": 2010,
+    "approvals": 974,
+    "denials": 9
+   },
+   {
+    "year": 2011,
+    "approvals": 1308,
+    "denials": 28
+   },
+   {
+    "year": 2012,
+    "approvals": 1587,
+    "denials": 49
+   },
+   {
+    "year": 2013,
+    "approvals": 1702,
+    "denials": 22
+   },
+   {
+    "year": 2014,
+    "approvals": 1918,
+    "denials": 191
+   },
+   {
+    "year": 2015,
+    "approvals": 1937,
+    "denials": 325
+   },
+   {
+    "year": 2016,
+    "approvals": 3241,
+    "denials": 445
+   },
+   {
+    "year": 2017,
+    "approvals": 6114,
+    "denials": 658
+   },
+   {
+    "year": 2018,
+    "approvals": 5432,
+    "denials": 1784
+   },
+   {
+    "year": 2019,
+    "approvals": 6133,
+    "denials": 2876
+   },
+   {
+    "year": 2020,
+    "approvals": 5192,
+    "denials": 1371
+   },
+   {
+    "year": 2021,
+    "approvals": 6231,
+    "denials": 466
+   },
+   {
+    "year": 2022,
+    "approvals": 4286,
+    "denials": 31
+   },
+   {
+    "year": 2023,
+    "approvals": 1487,
+    "denials": 36
+   }
+  ]
+ },
+ {
+  "name": "GOOGLE INC",
+  "slug": "google-inc",
+  "allTimeApprovals": 47866,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 535,
+    "denials": 0
+   },
+   {
+    "year": 2010,
+    "approvals": 804,
+    "denials": 1
+   },
+   {
+    "year": 2011,
+    "approvals": 1158,
+    "denials": 3
+   },
+   {
+    "year": 2012,
+    "approvals": 1269,
+    "denials": 5
+   },
+   {
+    "year": 2013,
+    "approvals": 1672,
+    "denials": 2
+   },
+   {
+    "year": 2014,
+    "approvals": 1993,
+    "denials": 1
+   },
+   {
+    "year": 2015,
+    "approvals": 2309,
+    "denials": 14
+   },
+   {
+    "year": 2016,
+    "approvals": 2673,
+    "denials": 23
+   },
+   {
+    "year": 2017,
+    "approvals": 2810,
+    "denials": 32
+   },
+   {
+    "year": 2018,
+    "approvals": 3408,
+    "denials": 51
+   },
+   {
+    "year": 2019,
+    "approvals": 6054,
+    "denials": 158
+   },
+   {
+    "year": 2020,
+    "approvals": 5819,
+    "denials": 56
+   },
+   {
+    "year": 2021,
+    "approvals": 6464,
+    "denials": 67
+   },
+   {
+    "year": 2022,
+    "approvals": 8438,
+    "denials": 89
+   },
+   {
+    "year": 2023,
+    "approvals": 2460,
+    "denials": 34
+   }
+  ]
+ },
+ {
+  "name": "AMAZON WEB SERVICES INC",
+  "slug": "amazon-web-services-inc",
+  "allTimeApprovals": 40904,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 2,
+    "denials": 0
+   },
+   {
+    "year": 2010,
+    "approvals": 10,
+    "denials": 0
+   },
+   {
+    "year": 2011,
+    "approvals": 20,
+    "denials": 0
+   },
+   {
+    "year": 2012,
+    "approvals": 6,
+    "denials": 0
+   },
+   {
+    "year": 2013,
+    "approvals": 9,
+    "denials": 0
+   },
+   {
+    "year": 2014,
+    "approvals": 99,
+    "denials": 2
+   },
+   {
+    "year": 2015,
+    "approvals": 168,
+    "denials": 0
+   },
+   {
+    "year": 2016,
+    "approvals": 305,
+    "denials": 0
+   },
+   {
+    "year": 2017,
+    "approvals": 407,
+    "denials": 10
+   },
+   {
+    "year": 2018,
+    "approvals": 715,
+    "denials": 41
+   },
+   {
+    "year": 2019,
+    "approvals": 8495,
+    "denials": 318
+   },
+   {
+    "year": 2020,
+    "approvals": 2706,
+    "denials": 83
+   },
+   {
+    "year": 2021,
+    "approvals": 3835,
+    "denials": 46
+   },
+   {
+    "year": 2022,
+    "approvals": 18049,
+    "denials": 275
+   },
+   {
+    "year": 2023,
+    "approvals": 6078,
+    "denials": 182
+   }
+  ]
+ },
+ {
+  "name": "HCL AMERICA INC",
+  "slug": "hcl-america-inc",
+  "allTimeApprovals": 36963,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 366,
+    "denials": 20
+   },
+   {
+    "year": 2010,
+    "approvals": 289,
+    "denials": 14
+   },
+   {
+    "year": 2011,
+    "approvals": 1436,
+    "denials": 17
+   },
+   {
+    "year": 2012,
+    "approvals": 2656,
+    "denials": 118
+   },
+   {
+    "year": 2013,
+    "approvals": 2501,
+    "denials": 210
+   },
+   {
+    "year": 2014,
+    "approvals": 2478,
+    "denials": 83
+   },
+   {
+    "year": 2015,
+    "approvals": 2936,
+    "denials": 52
+   },
+   {
+    "year": 2016,
+    "approvals": 3682,
+    "denials": 139
+   },
+   {
+    "year": 2017,
+    "approvals": 4474,
+    "denials": 175
+   },
+   {
+    "year": 2018,
+    "approvals": 2307,
+    "denials": 613
+   },
+   {
+    "year": 2019,
+    "approvals": 2431,
+    "denials": 853
+   },
+   {
+    "year": 2020,
+    "approvals": 4104,
+    "denials": 911
+   },
+   {
+    "year": 2021,
+    "approvals": 2917,
+    "denials": 80
+   },
+   {
+    "year": 2022,
+    "approvals": 2973,
+    "denials": 90
+   },
+   {
+    "year": 2023,
+    "approvals": 1413,
+    "denials": 42
+   }
+  ]
+ },
+ {
+  "name": "APPLE INC",
+  "slug": "apple-inc",
+  "allTimeApprovals": 32685,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 347,
+    "denials": 4
+   },
+   {
+    "year": 2010,
+    "approvals": 411,
+    "denials": 6
+   },
+   {
+    "year": 2011,
+    "approvals": 720,
+    "denials": 2
+   },
+   {
+    "year": 2012,
+    "approvals": 876,
+    "denials": 3
+   },
+   {
+    "year": 2013,
+    "approvals": 1007,
+    "denials": 3
+   },
+   {
+    "year": 2014,
+    "approvals": 1454,
+    "denials": 2
+   },
+   {
+    "year": 2015,
+    "approvals": 1692,
+    "denials": 15
+   },
+   {
+    "year": 2016,
+    "approvals": 2049,
+    "denials": 8
+   },
+   {
+    "year": 2017,
+    "approvals": 2077,
+    "denials": 22
+   },
+   {
+    "year": 2018,
+    "approvals": 3103,
+    "denials": 39
+   },
+   {
+    "year": 2019,
+    "approvals": 3469,
+    "denials": 47
+   },
+   {
+    "year": 2020,
+    "approvals": 3882,
+    "denials": 22
+   },
+   {
+    "year": 2021,
+    "approvals": 4727,
+    "denials": 38
+   },
+   {
+    "year": 2022,
+    "approvals": 5046,
+    "denials": 53
+   },
+   {
+    "year": 2023,
+    "approvals": 1825,
+    "denials": 25
+   }
+  ]
+ },
+ {
+  "name": "INTEL CORPORATION",
+  "slug": "intel-corporation",
+  "allTimeApprovals": 30879,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 1312,
+    "denials": 10
+   },
+   {
+    "year": 2010,
+    "approvals": 937,
+    "denials": 10
+   },
+   {
+    "year": 2011,
+    "approvals": 1707,
+    "denials": 49
+   },
+   {
+    "year": 2012,
+    "approvals": 1617,
+    "denials": 21
+   },
+   {
+    "year": 2013,
+    "approvals": 1806,
+    "denials": 19
+   },
+   {
+    "year": 2014,
+    "approvals": 2123,
+    "denials": 17
+   },
+   {
+    "year": 2015,
+    "approvals": 1679,
+    "denials": 8
+   },
+   {
+    "year": 2016,
+    "approvals": 2057,
+    "denials": 32
+   },
+   {
+    "year": 2017,
+    "approvals": 2647,
+    "denials": 35
+   },
+   {
+    "year": 2018,
+    "approvals": 2152,
+    "denials": 28
+   },
+   {
+    "year": 2019,
+    "approvals": 2992,
+    "denials": 86
+   },
+   {
+    "year": 2020,
+    "approvals": 2725,
+    "denials": 54
+   },
+   {
+    "year": 2021,
+    "approvals": 2367,
+    "denials": 22
+   },
+   {
+    "year": 2022,
+    "approvals": 3646,
+    "denials": 90
+   },
+   {
+    "year": 2023,
+    "approvals": 1112,
+    "denials": 69
+   }
+  ]
+ },
+ {
+  "name": "FACEBOOK INC",
+  "slug": "facebook-inc",
+  "allTimeApprovals": 30465,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 71,
+    "denials": 0
+   },
+   {
+    "year": 2010,
+    "approvals": 88,
+    "denials": 1
+   },
+   {
+    "year": 2011,
+    "approvals": 180,
+    "denials": 0
+   },
+   {
+    "year": 2012,
+    "approvals": 385,
+    "denials": 3
+   },
+   {
+    "year": 2013,
+    "approvals": 541,
+    "denials": 6
+   },
+   {
+    "year": 2014,
+    "approvals": 650,
+    "denials": 4
+   },
+   {
+    "year": 2015,
+    "approvals": 984,
+    "denials": 1
+   },
+   {
+    "year": 2016,
+    "approvals": 1154,
+    "denials": 4
+   },
+   {
+    "year": 2017,
+    "approvals": 1598,
+    "denials": 9
+   },
+   {
+    "year": 2018,
+    "approvals": 2493,
+    "denials": 22
+   },
+   {
+    "year": 2019,
+    "approvals": 3553,
+    "denials": 71
+   },
+   {
+    "year": 2020,
+    "approvals": 4408,
+    "denials": 32
+   },
+   {
+    "year": 2021,
+    "approvals": 5100,
+    "denials": 28
+   },
+   {
+    "year": 2022,
+    "approvals": 7723,
+    "denials": 53
+   },
+   {
+    "year": 2023,
+    "approvals": 1537,
+    "denials": 13
+   }
+  ]
+ },
+ {
+  "name": "AMAZON COM SERVICES LLC",
+  "slug": "amazon-com-services-llc",
+  "allTimeApprovals": 29902,
+  "series": [
+   {
+    "year": 2018,
+    "approvals": 22,
+    "denials": 0
+   },
+   {
+    "year": 2019,
+    "approvals": 106,
+    "denials": 5
+   },
+   {
+    "year": 2020,
+    "approvals": 11397,
+    "denials": 213
+   },
+   {
+    "year": 2021,
+    "approvals": 12942,
+    "denials": 175
+   },
+   {
+    "year": 2022,
+    "approvals": 5433,
+    "denials": 81
+   },
+   {
+    "year": 2023,
+    "approvals": 2,
+    "denials": 0
+   }
+  ]
+ },
+ {
+  "name": "TECH MAHINDRA AMERICAS INC",
+  "slug": "tech-mahindra-americas-inc",
+  "allTimeApprovals": 28046,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 148,
+    "denials": 36
+   },
+   {
+    "year": 2010,
+    "approvals": 110,
+    "denials": 17
+   },
+   {
+    "year": 2011,
+    "approvals": 118,
+    "denials": 13
+   },
+   {
+    "year": 2012,
+    "approvals": 812,
+    "denials": 48
+   },
+   {
+    "year": 2013,
+    "approvals": 601,
+    "denials": 28
+   },
+   {
+    "year": 2014,
+    "approvals": 2308,
+    "denials": 140
+   },
+   {
+    "year": 2015,
+    "approvals": 2726,
+    "denials": 89
+   },
+   {
+    "year": 2016,
+    "approvals": 3457,
+    "denials": 282
+   },
+   {
+    "year": 2017,
+    "approvals": 4950,
+    "denials": 335
+   },
+   {
+    "year": 2018,
+    "approvals": 2439,
+    "denials": 513
+   },
+   {
+    "year": 2019,
+    "approvals": 2821,
+    "denials": 876
+   },
+   {
+    "year": 2020,
+    "approvals": 2850,
+    "denials": 270
+   },
+   {
+    "year": 2021,
+    "approvals": 2826,
+    "denials": 78
+   },
+   {
+    "year": 2022,
+    "approvals": 1164,
+    "denials": 34
+   },
+   {
+    "year": 2023,
+    "approvals": 716,
+    "denials": 9
+   }
+  ]
+ },
+ {
+  "name": "CAPGEMINI AMERICA INC",
+  "slug": "capgemini-america-inc",
+  "allTimeApprovals": 27123,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 30,
+    "denials": 1
+   },
+   {
+    "year": 2010,
+    "approvals": 188,
+    "denials": 2
+   },
+   {
+    "year": 2011,
+    "approvals": 82,
+    "denials": 1
+   },
+   {
+    "year": 2012,
+    "approvals": 118,
+    "denials": 2
+   },
+   {
+    "year": 2013,
+    "approvals": 424,
+    "denials": 14
+   },
+   {
+    "year": 2014,
+    "approvals": 541,
+    "denials": 36
+   },
+   {
+    "year": 2015,
+    "approvals": 608,
+    "denials": 21
+   },
+   {
+    "year": 2016,
+    "approvals": 1736,
+    "denials": 40
+   },
+   {
+    "year": 2017,
+    "approvals": 3685,
+    "denials": 293
+   },
+   {
+    "year": 2018,
+    "approvals": 2954,
+    "denials": 1992
+   },
+   {
+    "year": 2019,
+    "approvals": 3694,
+    "denials": 1354
+   },
+   {
+    "year": 2020,
+    "approvals": 5306,
+    "denials": 540
+   },
+   {
+    "year": 2021,
+    "approvals": 3202,
+    "denials": 54
+   },
+   {
+    "year": 2022,
+    "approvals": 3128,
+    "denials": 39
+   },
+   {
+    "year": 2023,
+    "approvals": 1427,
+    "denials": 24
+   }
+  ]
+ },
+ {
+  "name": "IBM INDIA PRIVATE LIMITED",
+  "slug": "ibm-india-private-limited",
+  "allTimeApprovals": 21916,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 138,
+    "denials": 4
+   },
+   {
+    "year": 2010,
+    "approvals": 1044,
+    "denials": 23
+   },
+   {
+    "year": 2011,
+    "approvals": 820,
+    "denials": 303
+   },
+   {
+    "year": 2012,
+    "approvals": 1000,
+    "denials": 8
+   },
+   {
+    "year": 2013,
+    "approvals": 2167,
+    "denials": 81
+   },
+   {
+    "year": 2014,
+    "approvals": 2646,
+    "denials": 84
+   },
+   {
+    "year": 2015,
+    "approvals": 3126,
+    "denials": 68
+   },
+   {
+    "year": 2016,
+    "approvals": 3765,
+    "denials": 194
+   },
+   {
+    "year": 2017,
+    "approvals": 3050,
+    "denials": 208
+   },
+   {
+    "year": 2018,
+    "approvals": 1624,
+    "denials": 349
+   },
+   {
+    "year": 2019,
+    "approvals": 1049,
+    "denials": 355
+   },
+   {
+    "year": 2020,
+    "approvals": 944,
+    "denials": 89
+   },
+   {
+    "year": 2021,
+    "approvals": 468,
+    "denials": 50
+   },
+   {
+    "year": 2022,
+    "approvals": 75,
+    "denials": 2
+   }
+  ]
+ },
+ {
+  "name": "ORACLE AMERICA INC",
+  "slug": "oracle-america-inc",
+  "allTimeApprovals": 21484,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 153,
+    "denials": 0
+   },
+   {
+    "year": 2010,
+    "approvals": 674,
+    "denials": 0
+   },
+   {
+    "year": 2011,
+    "approvals": 1134,
+    "denials": 12
+   },
+   {
+    "year": 2012,
+    "approvals": 1117,
+    "denials": 6
+   },
+   {
+    "year": 2013,
+    "approvals": 1223,
+    "denials": 11
+   },
+   {
+    "year": 2014,
+    "approvals": 1265,
+    "denials": 12
+   },
+   {
+    "year": 2015,
+    "approvals": 1262,
+    "denials": 4
+   },
+   {
+    "year": 2016,
+    "approvals": 1601,
+    "denials": 28
+   },
+   {
+    "year": 2017,
+    "approvals": 1585,
+    "denials": 34
+   },
+   {
+    "year": 2018,
+    "approvals": 1662,
+    "denials": 54
+   },
+   {
+    "year": 2019,
+    "approvals": 1908,
+    "denials": 89
+   },
+   {
+    "year": 2020,
+    "approvals": 2077,
+    "denials": 40
+   },
+   {
+    "year": 2021,
+    "approvals": 2161,
+    "denials": 11
+   },
+   {
+    "year": 2022,
+    "approvals": 2720,
+    "denials": 8
+   },
+   {
+    "year": 2023,
+    "approvals": 942,
+    "denials": 4
+   }
+  ]
+ },
+ {
+  "name": "CISCO SYSTEMS INC",
+  "slug": "cisco-systems-inc",
+  "allTimeApprovals": 21413,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 982,
+    "denials": 12
+   },
+   {
+    "year": 2010,
+    "approvals": 1172,
+    "denials": 7
+   },
+   {
+    "year": 2011,
+    "approvals": 9,
+    "denials": 0
+   },
+   {
+    "year": 2012,
+    "approvals": 1141,
+    "denials": 12
+   },
+   {
+    "year": 2013,
+    "approvals": 1438,
+    "denials": 10
+   },
+   {
+    "year": 2014,
+    "approvals": 1350,
+    "denials": 17
+   },
+   {
+    "year": 2015,
+    "approvals": 1143,
+    "denials": 7
+   },
+   {
+    "year": 2016,
+    "approvals": 1598,
+    "denials": 22
+   },
+   {
+    "year": 2017,
+    "approvals": 1603,
+    "denials": 14
+   },
+   {
+    "year": 2018,
+    "approvals": 1659,
+    "denials": 41
+   },
+   {
+    "year": 2019,
+    "approvals": 2098,
+    "denials": 84
+   },
+   {
+    "year": 2020,
+    "approvals": 1984,
+    "denials": 60
+   },
+   {
+    "year": 2021,
+    "approvals": 1840,
+    "denials": 29
+   },
+   {
+    "year": 2022,
+    "approvals": 2565,
+    "denials": 42
+   },
+   {
+    "year": 2023,
+    "approvals": 831,
+    "denials": 19
+   }
+  ]
+ },
+ {
+  "name": "IBM CORPORATION",
+  "slug": "ibm-corporation",
+  "allTimeApprovals": 19910,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 827,
+    "denials": 19
+   },
+   {
+    "year": 2010,
+    "approvals": 552,
+    "denials": 7
+   },
+   {
+    "year": 2011,
+    "approvals": 933,
+    "denials": 12
+   },
+   {
+    "year": 2012,
+    "approvals": 730,
+    "denials": 13
+   },
+   {
+    "year": 2013,
+    "approvals": 784,
+    "denials": 13
+   },
+   {
+    "year": 2014,
+    "approvals": 966,
+    "denials": 32
+   },
+   {
+    "year": 2015,
+    "approvals": 734,
+    "denials": 7
+   },
+   {
+    "year": 2016,
+    "approvals": 1077,
+    "denials": 49
+   },
+   {
+    "year": 2017,
+    "approvals": 1080,
+    "denials": 33
+   },
+   {
+    "year": 2018,
+    "approvals": 1133,
+    "denials": 102
+   },
+   {
+    "year": 2019,
+    "approvals": 1915,
+    "denials": 521
+   },
+   {
+    "year": 2020,
+    "approvals": 2324,
+    "denials": 169
+   },
+   {
+    "year": 2021,
+    "approvals": 2695,
+    "denials": 92
+   },
+   {
+    "year": 2022,
+    "approvals": 3074,
+    "denials": 40
+   },
+   {
+    "year": 2023,
+    "approvals": 1086,
+    "denials": 23
+   }
+  ]
+ },
+ {
+  "name": "ERNST & YOUNG US LLP",
+  "slug": "ernst-young-us-llp",
+  "allTimeApprovals": 18207,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 911,
+    "denials": 5
+   },
+   {
+    "year": 2010,
+    "approvals": 583,
+    "denials": 4
+   },
+   {
+    "year": 2011,
+    "approvals": 1143,
+    "denials": 7
+   },
+   {
+    "year": 2012,
+    "approvals": 1084,
+    "denials": 9
+   },
+   {
+    "year": 2013,
+    "approvals": 1027,
+    "denials": 17
+   },
+   {
+    "year": 2014,
+    "approvals": 1586,
+    "denials": 19
+   },
+   {
+    "year": 2015,
+    "approvals": 1640,
+    "denials": 17
+   },
+   {
+    "year": 2016,
+    "approvals": 1720,
+    "denials": 76
+   },
+   {
+    "year": 2017,
+    "approvals": 3124,
+    "denials": 213
+   },
+   {
+    "year": 2018,
+    "approvals": 2484,
+    "denials": 244
+   },
+   {
+    "year": 2019,
+    "approvals": 2902,
+    "denials": 631
+   },
+   {
+    "year": 2020,
+    "approvals": 3,
+    "denials": 0
+   }
+  ]
+ },
+ {
+  "name": "LARSEN & TOUBRO INFOTECH LIMITED",
+  "slug": "larsen-toubro-infotech-limited",
+  "allTimeApprovals": 16253,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 928,
+    "denials": 48
+   },
+   {
+    "year": 2010,
+    "approvals": 609,
+    "denials": 21
+   },
+   {
+    "year": 2011,
+    "approvals": 1526,
+    "denials": 25
+   },
+   {
+    "year": 2012,
+    "approvals": 2059,
+    "denials": 34
+   },
+   {
+    "year": 2013,
+    "approvals": 2146,
+    "denials": 48
+   },
+   {
+    "year": 2014,
+    "approvals": 2402,
+    "denials": 46
+   },
+   {
+    "year": 2015,
+    "approvals": 1518,
+    "denials": 31
+   },
+   {
+    "year": 2016,
+    "approvals": 1699,
+    "denials": 94
+   },
+   {
+    "year": 2017,
+    "approvals": 1921,
+    "denials": 98
+   },
+   {
+    "year": 2018,
+    "approvals": 1445,
+    "denials": 214
+   },
+   {
+    "year": 2019,
+    "approvals": 0,
+    "denials": 1
+   }
+  ]
+ },
+ {
+  "name": "AMAZON CORPORATE LLC",
+  "slug": "amazon-corporate-llc",
+  "allTimeApprovals": 16024,
+  "series": [
+   {
+    "year": 2010,
+    "approvals": 191,
+    "denials": 0
+   },
+   {
+    "year": 2011,
+    "approvals": 819,
+    "denials": 1
+   },
+   {
+    "year": 2012,
+    "approvals": 1105,
+    "denials": 6
+   },
+   {
+    "year": 2013,
+    "approvals": 1585,
+    "denials": 9
+   },
+   {
+    "year": 2014,
+    "approvals": 1776,
+    "denials": 15
+   },
+   {
+    "year": 2015,
+    "approvals": 1950,
+    "denials": 23
+   },
+   {
+    "year": 2016,
+    "approvals": 2801,
+    "denials": 35
+   },
+   {
+    "year": 2017,
+    "approvals": 4816,
+    "denials": 38
+   },
+   {
+    "year": 2018,
+    "approvals": 980,
+    "denials": 46
+   },
+   {
+    "year": 2019,
+    "approvals": 1,
+    "denials": 0
+   }
+  ]
+ },
+ {
+  "name": "MPHASIS CORPORATION",
+  "slug": "mphasis-corporation",
+  "allTimeApprovals": 13590,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 569,
+    "denials": 53
+   },
+   {
+    "year": 2010,
+    "approvals": 426,
+    "denials": 22
+   },
+   {
+    "year": 2011,
+    "approvals": 645,
+    "denials": 34
+   },
+   {
+    "year": 2012,
+    "approvals": 755,
+    "denials": 17
+   },
+   {
+    "year": 2013,
+    "approvals": 942,
+    "denials": 61
+   },
+   {
+    "year": 2014,
+    "approvals": 984,
+    "denials": 32
+   },
+   {
+    "year": 2015,
+    "approvals": 833,
+    "denials": 14
+   },
+   {
+    "year": 2016,
+    "approvals": 1064,
+    "denials": 19
+   },
+   {
+    "year": 2017,
+    "approvals": 1210,
+    "denials": 41
+   },
+   {
+    "year": 2018,
+    "approvals": 1095,
+    "denials": 201
+   },
+   {
+    "year": 2019,
+    "approvals": 1303,
+    "denials": 187
+   },
+   {
+    "year": 2020,
+    "approvals": 1518,
+    "denials": 64
+   },
+   {
+    "year": 2021,
+    "approvals": 900,
+    "denials": 21
+   },
+   {
+    "year": 2022,
+    "approvals": 912,
+    "denials": 3
+   },
+   {
+    "year": 2023,
+    "approvals": 434,
+    "denials": 3
+   }
+  ]
+ },
+ {
+  "name": "JPMORGAN CHASE & CO",
+  "slug": "jpmorgan-chase-co",
+  "allTimeApprovals": 13254,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 497,
+    "denials": 5
+   },
+   {
+    "year": 2010,
+    "approvals": 606,
+    "denials": 4
+   },
+   {
+    "year": 2011,
+    "approvals": 783,
+    "denials": 5
+   },
+   {
+    "year": 2012,
+    "approvals": 812,
+    "denials": 4
+   },
+   {
+    "year": 2013,
+    "approvals": 1035,
+    "denials": 4
+   },
+   {
+    "year": 2014,
+    "approvals": 1327,
+    "denials": 7
+   },
+   {
+    "year": 2015,
+    "approvals": 1216,
+    "denials": 10
+   },
+   {
+    "year": 2016,
+    "approvals": 1507,
+    "denials": 10
+   },
+   {
+    "year": 2017,
+    "approvals": 1571,
+    "denials": 12
+   },
+   {
+    "year": 2018,
+    "approvals": 2206,
+    "denials": 63
+   },
+   {
+    "year": 2019,
+    "approvals": 1692,
+    "denials": 61
+   },
+   {
+    "year": 2020,
+    "approvals": 1,
+    "denials": 0
+   },
+   {
+    "year": 2022,
+    "approvals": 1,
+    "denials": 0
+   }
+  ]
+ },
+ {
+  "name": "QUALCOMM TECHNOLOGIES INC",
+  "slug": "qualcomm-technologies-inc",
+  "allTimeApprovals": 12864,
+  "series": [
+   {
+    "year": 2013,
+    "approvals": 1525,
+    "denials": 7
+   },
+   {
+    "year": 2014,
+    "approvals": 1130,
+    "denials": 5
+   },
+   {
+    "year": 2015,
+    "approvals": 952,
+    "denials": 13
+   },
+   {
+    "year": 2016,
+    "approvals": 1328,
+    "denials": 31
+   },
+   {
+    "year": 2017,
+    "approvals": 953,
+    "denials": 9
+   },
+   {
+    "year": 2018,
+    "approvals": 889,
+    "denials": 25
+   },
+   {
+    "year": 2019,
+    "approvals": 1320,
+    "denials": 59
+   },
+   {
+    "year": 2020,
+    "approvals": 1438,
+    "denials": 24
+   },
+   {
+    "year": 2021,
+    "approvals": 1258,
+    "denials": 13
+   },
+   {
+    "year": 2022,
+    "approvals": 1457,
+    "denials": 27
+   },
+   {
+    "year": 2023,
+    "approvals": 614,
+    "denials": 25
+   }
+  ]
+ },
+ {
+  "name": "PRICEWATERHOUSECOOPERS LLP",
+  "slug": "pricewaterhousecoopers-llp",
+  "allTimeApprovals": 12644,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 545,
+    "denials": 5
+   },
+   {
+    "year": 2010,
+    "approvals": 394,
+    "denials": 2
+   },
+   {
+    "year": 2011,
+    "approvals": 885,
+    "denials": 5
+   },
+   {
+    "year": 2012,
+    "approvals": 974,
+    "denials": 15
+   },
+   {
+    "year": 2013,
+    "approvals": 929,
+    "denials": 15
+   },
+   {
+    "year": 2014,
+    "approvals": 1413,
+    "denials": 30
+   },
+   {
+    "year": 2015,
+    "approvals": 1372,
+    "denials": 12
+   },
+   {
+    "year": 2016,
+    "approvals": 1121,
+    "denials": 53
+   },
+   {
+    "year": 2017,
+    "approvals": 1043,
+    "denials": 74
+   },
+   {
+    "year": 2018,
+    "approvals": 698,
+    "denials": 61
+   },
+   {
+    "year": 2019,
+    "approvals": 814,
+    "denials": 122
+   },
+   {
+    "year": 2020,
+    "approvals": 851,
+    "denials": 77
+   },
+   {
+    "year": 2021,
+    "approvals": 687,
+    "denials": 27
+   },
+   {
+    "year": 2022,
+    "approvals": 682,
+    "denials": 7
+   },
+   {
+    "year": 2023,
+    "approvals": 236,
+    "denials": 1
+   }
+  ]
+ },
+ {
+  "name": "SYNTEL CONSULTING INC",
+  "slug": "syntel-consulting-inc",
+  "allTimeApprovals": 12494,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 200,
+    "denials": 46
+   },
+   {
+    "year": 2010,
+    "approvals": 302,
+    "denials": 14
+   },
+   {
+    "year": 2011,
+    "approvals": 478,
+    "denials": 27
+   },
+   {
+    "year": 2012,
+    "approvals": 1315,
+    "denials": 20
+   },
+   {
+    "year": 2013,
+    "approvals": 1367,
+    "denials": 34
+   },
+   {
+    "year": 2014,
+    "approvals": 2131,
+    "denials": 28
+   },
+   {
+    "year": 2015,
+    "approvals": 1730,
+    "denials": 16
+   },
+   {
+    "year": 2016,
+    "approvals": 2298,
+    "denials": 63
+   },
+   {
+    "year": 2017,
+    "approvals": 2148,
+    "denials": 136
+   },
+   {
+    "year": 2018,
+    "approvals": 524,
+    "denials": 161
+   },
+   {
+    "year": 2019,
+    "approvals": 1,
+    "denials": 2
+   }
+  ]
+ },
+ {
+  "name": "COGNIZANT TECHNOLOGY SOLNS US CORP",
+  "slug": "cognizant-technology-solns-us-corp",
+  "allTimeApprovals": 11318,
+  "series": [
+   {
+    "year": 2011,
+    "approvals": 1,
+    "denials": 0
+   },
+   {
+    "year": 2012,
+    "approvals": 2,
+    "denials": 0
+   },
+   {
+    "year": 2013,
+    "approvals": 11315,
+    "denials": 1137
+   }
+  ]
+ },
+ {
+  "name": "UST GLOBAL INC",
+  "slug": "ust-global-inc",
+  "allTimeApprovals": 10865,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 510,
+    "denials": 80
+   },
+   {
+    "year": 2010,
+    "approvals": 317,
+    "denials": 15
+   },
+   {
+    "year": 2011,
+    "approvals": 784,
+    "denials": 14
+   },
+   {
+    "year": 2012,
+    "approvals": 716,
+    "denials": 16
+   },
+   {
+    "year": 2013,
+    "approvals": 1005,
+    "denials": 12
+   },
+   {
+    "year": 2014,
+    "approvals": 976,
+    "denials": 18
+   },
+   {
+    "year": 2015,
+    "approvals": 925,
+    "denials": 24
+   },
+   {
+    "year": 2016,
+    "approvals": 1249,
+    "denials": 41
+   },
+   {
+    "year": 2017,
+    "approvals": 1096,
+    "denials": 78
+   },
+   {
+    "year": 2018,
+    "approvals": 722,
+    "denials": 208
+   },
+   {
+    "year": 2019,
+    "approvals": 534,
+    "denials": 74
+   },
+   {
+    "year": 2020,
+    "approvals": 765,
+    "denials": 68
+   },
+   {
+    "year": 2021,
+    "approvals": 517,
+    "denials": 8
+   },
+   {
+    "year": 2022,
+    "approvals": 472,
+    "denials": 8
+   },
+   {
+    "year": 2023,
+    "approvals": 277,
+    "denials": 5
+   }
+  ]
+ },
+ {
+  "name": "MINDTREE LIMITED",
+  "slug": "mindtree-limited",
+  "allTimeApprovals": 10636,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 44,
+    "denials": 20
+   },
+   {
+    "year": 2010,
+    "approvals": 53,
+    "denials": 4
+   },
+   {
+    "year": 2011,
+    "approvals": 155,
+    "denials": 1
+   },
+   {
+    "year": 2012,
+    "approvals": 354,
+    "denials": 4
+   },
+   {
+    "year": 2013,
+    "approvals": 395,
+    "denials": 25
+   },
+   {
+    "year": 2014,
+    "approvals": 770,
+    "denials": 13
+   },
+   {
+    "year": 2015,
+    "approvals": 851,
+    "denials": 19
+   },
+   {
+    "year": 2016,
+    "approvals": 1172,
+    "denials": 36
+   },
+   {
+    "year": 2017,
+    "approvals": 999,
+    "denials": 34
+   },
+   {
+    "year": 2018,
+    "approvals": 913,
+    "denials": 188
+   },
+   {
+    "year": 2019,
+    "approvals": 1023,
+    "denials": 83
+   },
+   {
+    "year": 2020,
+    "approvals": 1178,
+    "denials": 30
+   },
+   {
+    "year": 2021,
+    "approvals": 1672,
+    "denials": 26
+   },
+   {
+    "year": 2022,
+    "approvals": 802,
+    "denials": 11
+   },
+   {
+    "year": 2023,
+    "approvals": 255,
+    "denials": 2
+   }
+  ]
+ },
+ {
+  "name": "DELOITTE & TOUCHE LLP",
+  "slug": "deloitte-touche-llp",
+  "allTimeApprovals": 10109,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 507,
+    "denials": 5
+   },
+   {
+    "year": 2010,
+    "approvals": 311,
+    "denials": 3
+   },
+   {
+    "year": 2011,
+    "approvals": 586,
+    "denials": 3
+   },
+   {
+    "year": 2012,
+    "approvals": 679,
+    "denials": 3
+   },
+   {
+    "year": 2013,
+    "approvals": 531,
+    "denials": 2
+   },
+   {
+    "year": 2014,
+    "approvals": 630,
+    "denials": 22
+   },
+   {
+    "year": 2015,
+    "approvals": 628,
+    "denials": 35
+   },
+   {
+    "year": 2016,
+    "approvals": 903,
+    "denials": 156
+   },
+   {
+    "year": 2017,
+    "approvals": 123,
+    "denials": 20
+   },
+   {
+    "year": 2018,
+    "approvals": 1024,
+    "denials": 395
+   },
+   {
+    "year": 2019,
+    "approvals": 1117,
+    "denials": 432
+   },
+   {
+    "year": 2020,
+    "approvals": 861,
+    "denials": 185
+   },
+   {
+    "year": 2021,
+    "approvals": 886,
+    "denials": 57
+   },
+   {
+    "year": 2022,
+    "approvals": 989,
+    "denials": 22
+   },
+   {
+    "year": 2023,
+    "approvals": 334,
+    "denials": 8
+   }
+  ]
+ },
+ {
+  "name": "ERNST YOUNG US LLP",
+  "slug": "ernst-young-us-llp-33",
+  "allTimeApprovals": 9942,
+  "series": [
+   {
+    "year": 2016,
+    "approvals": 1,
+    "denials": 0
+   },
+   {
+    "year": 2017,
+    "approvals": 1,
+    "denials": 0
+   },
+   {
+    "year": 2018,
+    "approvals": 7,
+    "denials": 0
+   },
+   {
+    "year": 2019,
+    "approvals": 1,
+    "denials": 0
+   },
+   {
+    "year": 2020,
+    "approvals": 3396,
+    "denials": 443
+   },
+   {
+    "year": 2021,
+    "approvals": 2307,
+    "denials": 52
+   },
+   {
+    "year": 2022,
+    "approvals": 3009,
+    "denials": 24
+   },
+   {
+    "year": 2023,
+    "approvals": 1220,
+    "denials": 34
+   }
+  ]
+ },
+ {
+  "name": "JPMORGAN CHASE CO",
+  "slug": "jpmorgan-chase-co-34",
+  "allTimeApprovals": 9465,
+  "series": [
+   {
+    "year": 2016,
+    "approvals": 2,
+    "denials": 0
+   },
+   {
+    "year": 2017,
+    "approvals": 4,
+    "denials": 0
+   },
+   {
+    "year": 2018,
+    "approvals": 3,
+    "denials": 0
+   },
+   {
+    "year": 2019,
+    "approvals": 4,
+    "denials": 0
+   },
+   {
+    "year": 2020,
+    "approvals": 2320,
+    "denials": 24
+   },
+   {
+    "year": 2021,
+    "approvals": 2477,
+    "denials": 21
+   },
+   {
+    "year": 2022,
+    "approvals": 3131,
+    "denials": 24
+   },
+   {
+    "year": 2023,
+    "approvals": 1524,
+    "denials": 24
+   }
+  ]
+ },
+ {
+  "name": "CUMMINS INC",
+  "slug": "cummins-inc",
+  "allTimeApprovals": 8936,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 302,
+    "denials": 1
+   },
+   {
+    "year": 2010,
+    "approvals": 238,
+    "denials": 2
+   },
+   {
+    "year": 2011,
+    "approvals": 714,
+    "denials": 3
+   },
+   {
+    "year": 2012,
+    "approvals": 594,
+    "denials": 3
+   },
+   {
+    "year": 2013,
+    "approvals": 371,
+    "denials": 3
+   },
+   {
+    "year": 2014,
+    "approvals": 729,
+    "denials": 4
+   },
+   {
+    "year": 2015,
+    "approvals": 686,
+    "denials": 8
+   },
+   {
+    "year": 2016,
+    "approvals": 577,
+    "denials": 20
+   },
+   {
+    "year": 2017,
+    "approvals": 698,
+    "denials": 13
+   },
+   {
+    "year": 2018,
+    "approvals": 931,
+    "denials": 37
+   },
+   {
+    "year": 2019,
+    "approvals": 679,
+    "denials": 22
+   },
+   {
+    "year": 2020,
+    "approvals": 700,
+    "denials": 14
+   },
+   {
+    "year": 2021,
+    "approvals": 800,
+    "denials": 9
+   },
+   {
+    "year": 2022,
+    "approvals": 672,
+    "denials": 8
+   },
+   {
+    "year": 2023,
+    "approvals": 245,
+    "denials": 13
+   }
+  ]
+ },
+ {
+  "name": "COMPUNNEL SOFTWARE GROUP INC",
+  "slug": "compunnel-software-group-inc",
+  "allTimeApprovals": 8616,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 69,
+    "denials": 27
+   },
+   {
+    "year": 2010,
+    "approvals": 70,
+    "denials": 0
+   },
+   {
+    "year": 2011,
+    "approvals": 103,
+    "denials": 2
+   },
+   {
+    "year": 2012,
+    "approvals": 117,
+    "denials": 2
+   },
+   {
+    "year": 2013,
+    "approvals": 131,
+    "denials": 3
+   },
+   {
+    "year": 2014,
+    "approvals": 187,
+    "denials": 5
+   },
+   {
+    "year": 2015,
+    "approvals": 237,
+    "denials": 4
+   },
+   {
+    "year": 2016,
+    "approvals": 320,
+    "denials": 9
+   },
+   {
+    "year": 2017,
+    "approvals": 322,
+    "denials": 7
+   },
+   {
+    "year": 2018,
+    "approvals": 517,
+    "denials": 97
+   },
+   {
+    "year": 2019,
+    "approvals": 798,
+    "denials": 84
+   },
+   {
+    "year": 2020,
+    "approvals": 1345,
+    "denials": 52
+   },
+   {
+    "year": 2021,
+    "approvals": 2349,
+    "denials": 49
+   },
+   {
+    "year": 2022,
+    "approvals": 1313,
+    "denials": 38
+   },
+   {
+    "year": 2023,
+    "approvals": 738,
+    "denials": 25
+   }
+  ]
+ },
+ {
+  "name": "RANDSTAD TECHNOLOGIES LLC",
+  "slug": "randstad-technologies-llc",
+  "allTimeApprovals": 8568,
+  "series": [
+   {
+    "year": 2011,
+    "approvals": 1,
+    "denials": 0
+   },
+   {
+    "year": 2012,
+    "approvals": 3,
+    "denials": 0
+   },
+   {
+    "year": 2013,
+    "approvals": 380,
+    "denials": 14
+   },
+   {
+    "year": 2014,
+    "approvals": 434,
+    "denials": 11
+   },
+   {
+    "year": 2015,
+    "approvals": 550,
+    "denials": 16
+   },
+   {
+    "year": 2016,
+    "approvals": 781,
+    "denials": 21
+   },
+   {
+    "year": 2017,
+    "approvals": 561,
+    "denials": 8
+   },
+   {
+    "year": 2018,
+    "approvals": 905,
+    "denials": 43
+   },
+   {
+    "year": 2019,
+    "approvals": 1109,
+    "denials": 50
+   },
+   {
+    "year": 2020,
+    "approvals": 1192,
+    "denials": 27
+   },
+   {
+    "year": 2021,
+    "approvals": 1793,
+    "denials": 27
+   },
+   {
+    "year": 2022,
+    "approvals": 611,
+    "denials": 38
+   },
+   {
+    "year": 2023,
+    "approvals": 248,
+    "denials": 17
+   }
+  ]
+ },
+ {
+  "name": "HEXAWARE TECHNOLOGIES INC",
+  "slug": "hexaware-technologies-inc",
+  "allTimeApprovals": 8487,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 62,
+    "denials": 4
+   },
+   {
+    "year": 2010,
+    "approvals": 92,
+    "denials": 7
+   },
+   {
+    "year": 2011,
+    "approvals": 1,
+    "denials": 0
+   },
+   {
+    "year": 2012,
+    "approvals": 458,
+    "denials": 17
+   },
+   {
+    "year": 2013,
+    "approvals": 472,
+    "denials": 23
+   },
+   {
+    "year": 2014,
+    "approvals": 615,
+    "denials": 32
+   },
+   {
+    "year": 2015,
+    "approvals": 609,
+    "denials": 14
+   },
+   {
+    "year": 2016,
+    "approvals": 749,
+    "denials": 21
+   },
+   {
+    "year": 2017,
+    "approvals": 976,
+    "denials": 27
+   },
+   {
+    "year": 2018,
+    "approvals": 681,
+    "denials": 72
+   },
+   {
+    "year": 2019,
+    "approvals": 776,
+    "denials": 72
+   },
+   {
+    "year": 2020,
+    "approvals": 1021,
+    "denials": 52
+   },
+   {
+    "year": 2021,
+    "approvals": 1196,
+    "denials": 29
+   },
+   {
+    "year": 2022,
+    "approvals": 511,
+    "denials": 4
+   },
+   {
+    "year": 2023,
+    "approvals": 268,
+    "denials": 8
+   }
+  ]
+ },
+ {
+  "name": "KPMG LLP",
+  "slug": "kpmg-llp",
+  "allTimeApprovals": 8122,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 575,
+    "denials": 6
+   },
+   {
+    "year": 2010,
+    "approvals": 351,
+    "denials": 0
+   },
+   {
+    "year": 2011,
+    "approvals": 592,
+    "denials": 4
+   },
+   {
+    "year": 2012,
+    "approvals": 573,
+    "denials": 3
+   },
+   {
+    "year": 2013,
+    "approvals": 455,
+    "denials": 13
+   },
+   {
+    "year": 2014,
+    "approvals": 688,
+    "denials": 16
+   },
+   {
+    "year": 2015,
+    "approvals": 503,
+    "denials": 1
+   },
+   {
+    "year": 2016,
+    "approvals": 508,
+    "denials": 12
+   },
+   {
+    "year": 2017,
+    "approvals": 958,
+    "denials": 19
+   },
+   {
+    "year": 2018,
+    "approvals": 551,
+    "denials": 39
+   },
+   {
+    "year": 2019,
+    "approvals": 709,
+    "denials": 98
+   },
+   {
+    "year": 2020,
+    "approvals": 556,
+    "denials": 74
+   },
+   {
+    "year": 2021,
+    "approvals": 478,
+    "denials": 9
+   },
+   {
+    "year": 2022,
+    "approvals": 442,
+    "denials": 8
+   },
+   {
+    "year": 2023,
+    "approvals": 183,
+    "denials": 7
+   }
+  ]
+ },
+ {
+  "name": "PAYPAL INC",
+  "slug": "paypal-inc",
+  "allTimeApprovals": 7806,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 129,
+    "denials": 2
+   },
+   {
+    "year": 2010,
+    "approvals": 200,
+    "denials": 0
+   },
+   {
+    "year": 2011,
+    "approvals": 269,
+    "denials": 1
+   },
+   {
+    "year": 2012,
+    "approvals": 318,
+    "denials": 1
+   },
+   {
+    "year": 2013,
+    "approvals": 285,
+    "denials": 2
+   },
+   {
+    "year": 2014,
+    "approvals": 394,
+    "denials": 3
+   },
+   {
+    "year": 2015,
+    "approvals": 381,
+    "denials": 4
+   },
+   {
+    "year": 2016,
+    "approvals": 388,
+    "denials": 9
+   },
+   {
+    "year": 2017,
+    "approvals": 520,
+    "denials": 8
+   },
+   {
+    "year": 2018,
+    "approvals": 646,
+    "denials": 8
+   },
+   {
+    "year": 2019,
+    "approvals": 787,
+    "denials": 22
+   },
+   {
+    "year": 2020,
+    "approvals": 739,
+    "denials": 18
+   },
+   {
+    "year": 2021,
+    "approvals": 1573,
+    "denials": 9
+   },
+   {
+    "year": 2022,
+    "approvals": 845,
+    "denials": 11
+   },
+   {
+    "year": 2023,
+    "approvals": 332,
+    "denials": 5
+   }
+  ]
+ },
+ {
+  "name": "BLOOMBERG LP",
+  "slug": "bloomberg-lp",
+  "allTimeApprovals": 7725,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 445,
+    "denials": 7
+   },
+   {
+    "year": 2010,
+    "approvals": 424,
+    "denials": 8
+   },
+   {
+    "year": 2011,
+    "approvals": 470,
+    "denials": 9
+   },
+   {
+    "year": 2012,
+    "approvals": 345,
+    "denials": 8
+   },
+   {
+    "year": 2013,
+    "approvals": 390,
+    "denials": 5
+   },
+   {
+    "year": 2014,
+    "approvals": 507,
+    "denials": 5
+   },
+   {
+    "year": 2015,
+    "approvals": 462,
+    "denials": 3
+   },
+   {
+    "year": 2016,
+    "approvals": 453,
+    "denials": 13
+   },
+   {
+    "year": 2017,
+    "approvals": 588,
+    "denials": 8
+   },
+   {
+    "year": 2018,
+    "approvals": 698,
+    "denials": 24
+   },
+   {
+    "year": 2019,
+    "approvals": 605,
+    "denials": 33
+   },
+   {
+    "year": 2020,
+    "approvals": 625,
+    "denials": 4
+   },
+   {
+    "year": 2021,
+    "approvals": 720,
+    "denials": 8
+   },
+   {
+    "year": 2022,
+    "approvals": 697,
+    "denials": 8
+   },
+   {
+    "year": 2023,
+    "approvals": 296,
+    "denials": 5
+   }
+  ]
+ },
+ {
+  "name": "KFORCE INC",
+  "slug": "kforce-inc",
+  "allTimeApprovals": 7723,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 113,
+    "denials": 27
+   },
+   {
+    "year": 2010,
+    "approvals": 175,
+    "denials": 18
+   },
+   {
+    "year": 2011,
+    "approvals": 318,
+    "denials": 27
+   },
+   {
+    "year": 2012,
+    "approvals": 352,
+    "denials": 27
+   },
+   {
+    "year": 2013,
+    "approvals": 410,
+    "denials": 36
+   },
+   {
+    "year": 2014,
+    "approvals": 437,
+    "denials": 57
+   },
+   {
+    "year": 2015,
+    "approvals": 373,
+    "denials": 48
+   },
+   {
+    "year": 2016,
+    "approvals": 459,
+    "denials": 66
+   },
+   {
+    "year": 2017,
+    "approvals": 505,
+    "denials": 95
+   },
+   {
+    "year": 2018,
+    "approvals": 643,
+    "denials": 276
+   },
+   {
+    "year": 2019,
+    "approvals": 885,
+    "denials": 309
+   },
+   {
+    "year": 2020,
+    "approvals": 1056,
+    "denials": 228
+   },
+   {
+    "year": 2021,
+    "approvals": 970,
+    "denials": 49
+   },
+   {
+    "year": 2022,
+    "approvals": 774,
+    "denials": 28
+   },
+   {
+    "year": 2023,
+    "approvals": 253,
+    "denials": 22
+   }
+  ]
+ },
+ {
+  "name": "FIDELITY INVESTMENTS",
+  "slug": "fidelity-investments",
+  "allTimeApprovals": 7709,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 249,
+    "denials": 1
+   },
+   {
+    "year": 2010,
+    "approvals": 140,
+    "denials": 0
+   },
+   {
+    "year": 2011,
+    "approvals": 108,
+    "denials": 0
+   },
+   {
+    "year": 2012,
+    "approvals": 177,
+    "denials": 0
+   },
+   {
+    "year": 2013,
+    "approvals": 204,
+    "denials": 2
+   },
+   {
+    "year": 2014,
+    "approvals": 208,
+    "denials": 1
+   },
+   {
+    "year": 2015,
+    "approvals": 200,
+    "denials": 1
+   },
+   {
+    "year": 2016,
+    "approvals": 328,
+    "denials": 6
+   },
+   {
+    "year": 2017,
+    "approvals": 277,
+    "denials": 6
+   },
+   {
+    "year": 2018,
+    "approvals": 295,
+    "denials": 25
+   },
+   {
+    "year": 2019,
+    "approvals": 409,
+    "denials": 27
+   },
+   {
+    "year": 2020,
+    "approvals": 621,
+    "denials": 13
+   },
+   {
+    "year": 2021,
+    "approvals": 2214,
+    "denials": 18
+   },
+   {
+    "year": 2022,
+    "approvals": 1585,
+    "denials": 24
+   },
+   {
+    "year": 2023,
+    "approvals": 694,
+    "denials": 22
+   }
+  ]
+ },
+ {
+  "name": "SALESFORCE COM INC",
+  "slug": "salesforce-com-inc",
+  "allTimeApprovals": 7688,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 5,
+    "denials": 0
+   },
+   {
+    "year": 2010,
+    "approvals": 1,
+    "denials": 0
+   },
+   {
+    "year": 2013,
+    "approvals": 1,
+    "denials": 0
+   },
+   {
+    "year": 2015,
+    "approvals": 1,
+    "denials": 0
+   },
+   {
+    "year": 2016,
+    "approvals": 4,
+    "denials": 0
+   },
+   {
+    "year": 2017,
+    "approvals": 3,
+    "denials": 0
+   },
+   {
+    "year": 2018,
+    "approvals": 2,
+    "denials": 0
+   },
+   {
+    "year": 2019,
+    "approvals": 1310,
+    "denials": 39
+   },
+   {
+    "year": 2020,
+    "approvals": 1338,
+    "denials": 15
+   },
+   {
+    "year": 2021,
+    "approvals": 2773,
+    "denials": 30
+   },
+   {
+    "year": 2022,
+    "approvals": 2250,
+    "denials": 19
+   }
+  ]
+ },
+ {
+  "name": "NVIDIA CORPORATION",
+  "slug": "nvidia-corporation",
+  "allTimeApprovals": 7591,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 282,
+    "denials": 1
+   },
+   {
+    "year": 2010,
+    "approvals": 134,
+    "denials": 2
+   },
+   {
+    "year": 2011,
+    "approvals": 265,
+    "denials": 3
+   },
+   {
+    "year": 2012,
+    "approvals": 378,
+    "denials": 5
+   },
+   {
+    "year": 2013,
+    "approvals": 358,
+    "denials": 5
+   },
+   {
+    "year": 2014,
+    "approvals": 322,
+    "denials": 3
+   },
+   {
+    "year": 2015,
+    "approvals": 289,
+    "denials": 2
+   },
+   {
+    "year": 2016,
+    "approvals": 411,
+    "denials": 5
+   },
+   {
+    "year": 2017,
+    "approvals": 487,
+    "denials": 3
+   },
+   {
+    "year": 2018,
+    "approvals": 639,
+    "denials": 1
+   },
+   {
+    "year": 2019,
+    "approvals": 712,
+    "denials": 21
+   },
+   {
+    "year": 2020,
+    "approvals": 773,
+    "denials": 7
+   },
+   {
+    "year": 2021,
+    "approvals": 1015,
+    "denials": 7
+   },
+   {
+    "year": 2022,
+    "approvals": 1132,
+    "denials": 9
+   },
+   {
+    "year": 2023,
+    "approvals": 394,
+    "denials": 1
+   }
+  ]
+ },
+ {
+  "name": "LARSEN AND TOUBRO INFOTECH LIMITED",
+  "slug": "larsen-and-toubro-infotech-limited",
+  "allTimeApprovals": 7582,
+  "series": [
+   {
+    "year": 2014,
+    "approvals": 1,
+    "denials": 0
+   },
+   {
+    "year": 2015,
+    "approvals": 2,
+    "denials": 0
+   },
+   {
+    "year": 2016,
+    "approvals": 2,
+    "denials": 0
+   },
+   {
+    "year": 2017,
+    "approvals": 1,
+    "denials": 0
+   },
+   {
+    "year": 2018,
+    "approvals": 1,
+    "denials": 0
+   },
+   {
+    "year": 2019,
+    "approvals": 2298,
+    "denials": 287
+   },
+   {
+    "year": 2020,
+    "approvals": 2010,
+    "denials": 220
+   },
+   {
+    "year": 2021,
+    "approvals": 1917,
+    "denials": 34
+   },
+   {
+    "year": 2022,
+    "approvals": 1350,
+    "denials": 14
+   }
+  ]
+ },
+ {
+  "name": "WAL MART ASSOCIATES INC",
+  "slug": "wal-mart-associates-inc",
+  "allTimeApprovals": 7539,
+  "series": [
+   {
+    "year": 2011,
+    "approvals": 3,
+    "denials": 0
+   },
+   {
+    "year": 2014,
+    "approvals": 2,
+    "denials": 0
+   },
+   {
+    "year": 2015,
+    "approvals": 4,
+    "denials": 0
+   },
+   {
+    "year": 2016,
+    "approvals": 3,
+    "denials": 0
+   },
+   {
+    "year": 2017,
+    "approvals": 2,
+    "denials": 0
+   },
+   {
+    "year": 2018,
+    "approvals": 5,
+    "denials": 0
+   },
+   {
+    "year": 2019,
+    "approvals": 18,
+    "denials": 0
+   },
+   {
+    "year": 2020,
+    "approvals": 1522,
+    "denials": 25
+   },
+   {
+    "year": 2021,
+    "approvals": 1989,
+    "denials": 20
+   },
+   {
+    "year": 2022,
+    "approvals": 2664,
+    "denials": 17
+   },
+   {
+    "year": 2023,
+    "approvals": 1327,
+    "denials": 24
+   }
+  ]
+ },
+ {
+  "name": "CAPITAL ONE SERVICES LLC",
+  "slug": "capital-one-services-llc",
+  "allTimeApprovals": 7520,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 184,
+    "denials": 1
+   },
+   {
+    "year": 2010,
+    "approvals": 76,
+    "denials": 0
+   },
+   {
+    "year": 2011,
+    "approvals": 12,
+    "denials": 0
+   },
+   {
+    "year": 2012,
+    "approvals": 334,
+    "denials": 1
+   },
+   {
+    "year": 2013,
+    "approvals": 231,
+    "denials": 0
+   },
+   {
+    "year": 2014,
+    "approvals": 421,
+    "denials": 1
+   },
+   {
+    "year": 2015,
+    "approvals": 625,
+    "denials": 1
+   },
+   {
+    "year": 2016,
+    "approvals": 529,
+    "denials": 0
+   },
+   {
+    "year": 2017,
+    "approvals": 702,
+    "denials": 1
+   },
+   {
+    "year": 2018,
+    "approvals": 559,
+    "denials": 31
+   },
+   {
+    "year": 2019,
+    "approvals": 936,
+    "denials": 10
+   },
+   {
+    "year": 2020,
+    "approvals": 752,
+    "denials": 3
+   },
+   {
+    "year": 2021,
+    "approvals": 1032,
+    "denials": 7
+   },
+   {
+    "year": 2022,
+    "approvals": 874,
+    "denials": 5
+   },
+   {
+    "year": 2023,
+    "approvals": 253,
+    "denials": 2
+   }
+  ]
+ },
+ {
+  "name": "EBAY INC",
+  "slug": "ebay-inc",
+  "allTimeApprovals": 7416,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 101,
+    "denials": 1
+   },
+   {
+    "year": 2010,
+    "approvals": 163,
+    "denials": 1
+   },
+   {
+    "year": 2011,
+    "approvals": 376,
+    "denials": 1
+   },
+   {
+    "year": 2012,
+    "approvals": 354,
+    "denials": 4
+   },
+   {
+    "year": 2013,
+    "approvals": 459,
+    "denials": 4
+   },
+   {
+    "year": 2014,
+    "approvals": 503,
+    "denials": 0
+   },
+   {
+    "year": 2015,
+    "approvals": 359,
+    "denials": 3
+   },
+   {
+    "year": 2016,
+    "approvals": 484,
+    "denials": 5
+   },
+   {
+    "year": 2017,
+    "approvals": 591,
+    "denials": 3
+   },
+   {
+    "year": 2018,
+    "approvals": 561,
+    "denials": 7
+   },
+   {
+    "year": 2019,
+    "approvals": 627,
+    "denials": 16
+   },
+   {
+    "year": 2020,
+    "approvals": 663,
+    "denials": 8
+   },
+   {
+    "year": 2021,
+    "approvals": 1223,
+    "denials": 7
+   },
+   {
+    "year": 2022,
+    "approvals": 638,
+    "denials": 2
+   },
+   {
+    "year": 2023,
+    "approvals": 314,
+    "denials": 1
+   }
+  ]
+ },
+ {
+  "name": "LINKEDIN CORPORATION",
+  "slug": "linkedin-corporation",
+  "allTimeApprovals": 7381,
+  "series": [
+   {
+    "year": 2009,
+    "approvals": 19,
+    "denials": 0
+   },
+   {
+    "year": 2010,
+    "approvals": 43,
+    "denials": 0
+   },
+   {
+    "year": 2011,
+    "approvals": 105,
+    "denials": 1
+   },
+   {
+    "year": 2012,
+    "approvals": 165,
+    "denials": 0
+   },
+   {
+    "year": 2013,
+    "approvals": 207,
+    "denials": 0
+   },
+   {
+    "year": 2014,
+    "approvals": 307,
+    "denials": 2
+   },
+   {
+    "year": 2015,
+    "approvals": 403,
+    "denials": 2
+   },
+   {
+    "year": 2016,
+    "approvals": 420,
+    "denials": 3
+   },
+   {
+    "year": 2017,
+    "approvals": 540,
+    "denials": 4
+   },
+   {
+    "year": 2018,
+    "approvals": 732,
+    "denials": 13
+   },
+   {
+    "year": 2019,
+    "approvals": 926,
+    "denials": 12
+   },
+   {
+    "year": 2020,
+    "approvals": 892,
+    "denials": 9
+   },
+   {
+    "year": 2021,
+    "approvals": 985,
+    "denials": 12
+   },
+   {
+    "year": 2022,
+    "approvals": 1383,
+    "denials": 17
+   },
+   {
+    "year": 2023,
+    "approvals": 254,
+    "denials": 1
+   }
+  ]
+ }
+]
