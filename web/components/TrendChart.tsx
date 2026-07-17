@@ -5,7 +5,7 @@ import { useState } from 'react';
 export type YearPoint = {
   year: number;
   approvals: number;
-  denials: number;
+  denials: number | null; // null = not published for that year (FY2024+)
 };
 
 const W = 760;
@@ -28,8 +28,11 @@ export default function TrendChart({ data }: { data: YearPoint[] }) {
   const [hover, setHover] = useState<number | null>(null);
 
   const max = niceMax(
-    Math.max(...data.map((d) => Math.max(d.approvals, d.denials)), 1)
+    Math.max(...data.map((d) => Math.max(d.approvals, d.denials ?? 0)), 1)
   );
+  const denialPoints = data
+    .map((d, i) => ({ ...d, i }))
+    .filter((d): d is typeof d & { denials: number } => d.denials !== null);
   const plotW = W - PAD.left - PAD.right;
   const plotH = H - PAD.top - PAD.bottom;
 
@@ -37,12 +40,15 @@ export default function TrendChart({ data }: { data: YearPoint[] }) {
     PAD.left + (data.length === 1 ? plotW / 2 : (i / (data.length - 1)) * plotW);
   const y = (v: number) => PAD.top + plotH * (1 - v / max);
 
-  const path = (key: 'approvals' | 'denials') =>
-    data.map((d, i) => `${i ? 'L' : 'M'}${x(i)},${y(d[key])}`).join('');
+  const approvalsPath = data
+    .map((d, i) => `${i ? 'L' : 'M'}${x(i)},${y(d.approvals)}`)
+    .join('');
+  const denialsPath = denialPoints
+    .map((d, j) => `${j ? 'L' : 'M'}${x(d.i)},${y(d.denials)}`)
+    .join('');
 
   const area =
-    path('approvals') +
-    ` L${x(data.length - 1)},${y(0)} L${x(0)},${y(0)} Z`;
+    approvalsPath + ` L${x(data.length - 1)},${y(0)} L${x(0)},${y(0)} Z`;
 
   const yTicks = [0, 0.25, 0.5, 0.75, 1].map((t) => t * max);
   // Thin x labels when the series is long so they never collide.
@@ -148,19 +154,21 @@ export default function TrendChart({ data }: { data: YearPoint[] }) {
 
           <path d={area} fill="url(#approvalsFill)" />
           <path
-            d={path('approvals')}
+            d={approvalsPath}
             fill="none"
             stroke="var(--approvals)"
             strokeWidth="2.5"
             strokeLinejoin="round"
           />
-          <path
-            d={path('denials')}
-            fill="none"
-            stroke="var(--denials)"
-            strokeWidth="2"
-            strokeLinejoin="round"
-          />
+          {denialsPath && (
+            <path
+              d={denialsPath}
+              fill="none"
+              stroke="var(--denials)"
+              strokeWidth="2"
+              strokeLinejoin="round"
+            />
+          )}
 
           {/* crosshair */}
           {hover !== null && (
@@ -186,14 +194,16 @@ export default function TrendChart({ data }: { data: YearPoint[] }) {
                 stroke="var(--surface)"
                 strokeWidth="2"
               />
-              <circle
-                cx={x(i)}
-                cy={y(d.denials)}
-                r={hover === i ? 5 : 3.5}
-                fill="var(--denials)"
-                stroke="var(--surface)"
-                strokeWidth="2"
-              />
+              {d.denials !== null && (
+                <circle
+                  cx={x(i)}
+                  cy={y(d.denials)}
+                  r={hover === i ? 5 : 3.5}
+                  fill="var(--denials)"
+                  stroke="var(--surface)"
+                  strokeWidth="2"
+                />
+              )}
             </g>
           ))}
 
@@ -235,8 +245,12 @@ export default function TrendChart({ data }: { data: YearPoint[] }) {
                 className="inline-block h-2 w-2 rounded-full"
                 style={{ background: 'var(--denials)' }}
               />
-              <span className="font-mono">{h.denials.toLocaleString()}</span>
-              <span style={{ color: 'var(--ink-muted)' }}>denials</span>
+              <span className="font-mono">
+                {h.denials === null ? '—' : h.denials.toLocaleString()}
+              </span>
+              <span style={{ color: 'var(--ink-muted)' }}>
+                {h.denials === null ? 'denials not published' : 'denials'}
+              </span>
             </div>
           </div>
         )}
@@ -259,7 +273,9 @@ export default function TrendChart({ data }: { data: YearPoint[] }) {
               <tr key={d.year}>
                 <td className="py-0.5 pr-4">{d.year}</td>
                 <td className="py-0.5 pr-4">{d.approvals.toLocaleString()}</td>
-                <td className="py-0.5">{d.denials.toLocaleString()}</td>
+                <td className="py-0.5">
+                  {d.denials === null ? '—' : d.denials.toLocaleString()}
+                </td>
               </tr>
             ))}
           </tbody>

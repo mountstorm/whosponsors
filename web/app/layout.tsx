@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { getDataRange } from '@/lib/db';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -29,6 +30,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const range = getDataRange();
   return (
     <html lang="en">
       <body className="min-h-screen antialiased">
@@ -51,9 +53,9 @@ export default function RootLayout({
               </p>
               <p className="mt-1.5 leading-relaxed">
                 Real approval &amp; denial numbers for 324,910 employers,
-                FY2009–FY2023, straight from USCIS filings — so international
-                students and workers can see who actually sponsors before
-                applying.
+                FY{range.minYear}–FY{range.maxYear}, straight from USCIS
+                filings — so international students and workers can see who
+                actually sponsors before applying.
               </p>
             </div>
           </div>
@@ -79,8 +81,12 @@ export default function RootLayout({
           className="mx-auto max-w-5xl px-6 py-10 text-xs"
           style={{ color: 'var(--ink-muted)' }}
         >
-          Source: USCIS H-1B Employer Data Hub, FY2009–FY2023. Not legal
-          advice. Employer entities merged where clearly the same company.
+          Source: USCIS H-1B Employer Data Hub, FY{range.minYear}–FY
+          {range.maxYear}
+          {range.partialYears.length > 0 &&
+            ` (FY${Math.min(...range.partialYears)}+ covers top employers, approvals only)`}
+          . Not legal advice. Employer entities merged where clearly the same
+          company.
         </footer>
       </body>
     </html>

@@ -27,13 +27,40 @@ export type Company = {
 
 export type YearRow = {
   fiscal_year: number;
-  initial_approval: number;
-  initial_denial: number;
-  continuing_approval: number;
-  continuing_denial: number;
+  initial_approval: number | null;
+  initial_denial: number | null;
+  continuing_approval: number | null;
+  continuing_denial: number | null;
   total_approvals: number;
-  total_denials: number;
+  total_denials: number | null;
 };
+
+export type DataRange = {
+  minYear: number;
+  maxYear: number;
+  partialYears: number[];
+};
+
+export function getDataRange(): DataRange {
+  const db = getDb();
+  const range = db
+    .prepare(
+      'SELECT MIN(fiscal_year) AS minYear, MAX(fiscal_year) AS maxYear FROM company_year'
+    )
+    .get() as { minYear: number; maxYear: number };
+  let partialYears: number[] = [];
+  const hasCoverage = db
+    .prepare("SELECT name FROM sqlite_master WHERE type='table' AND name='coverage'")
+    .get();
+  if (hasCoverage) {
+    partialYears = (
+      db.prepare('SELECT fiscal_year FROM coverage ORDER BY fiscal_year').all() as {
+        fiscal_year: number;
+      }[]
+    ).map((r) => r.fiscal_year);
+  }
+  return { ...range, partialYears };
+}
 
 export function searchCompanies(q: string, limit = 8): Company[] {
   const like = `%${q.trim().replace(/[%_]/g, ' ')}%`;

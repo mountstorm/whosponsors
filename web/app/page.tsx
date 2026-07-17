@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import Search from '@/components/Search';
-import { getTopCompanies } from '@/lib/db';
+import { getDataRange, getTopCompanies } from '@/lib/db';
 
 export default function Home() {
   const top = getTopCompanies(20);
+  const range = getDataRange();
 
   return (
     <main className="mx-auto max-w-5xl px-6">
@@ -12,7 +13,8 @@ export default function Home() {
           className="mx-auto mb-4 w-fit rounded-full border px-3 py-1 font-mono text-xs"
           style={{ borderColor: 'var(--hairline)', color: 'var(--ink-muted)' }}
         >
-          15 years of USCIS filings · 324,910 employers
+          FY{range.minYear}–FY{range.maxYear} USCIS filings · 324,910
+          employers
         </p>
         <h1 className="mx-auto max-w-2xl text-4xl font-bold leading-tight tracking-tight sm:text-6xl">
           Who <span style={{ color: 'var(--approvals)' }}>actually</span>{' '}
