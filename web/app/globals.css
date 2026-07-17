@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface: #fcfcfb;
+  --ink: #171717;
+  --ink-muted: #6b7280;
+  --hairline: #e5e7eb;
+  --approvals: #2563eb;
+  --denials: #d97706;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface: #1a1a19;
+    --ink: #f4f4f3;
+    --ink-muted: #9ca3af;
+    --hairline: #33342f;
+    --approvals: #3b82f6;
+  }
+}
+
+body {
+  background: var(--surface);
+  color: var(--ink);
+}
