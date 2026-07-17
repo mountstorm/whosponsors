@@ -4,24 +4,29 @@
 
 :root {
   --surface: #fcfcfb;
-  --ink: #171717;
-  --ink-muted: #6b7280;
-  --hairline: #e5e7eb;
+  --surface-raised: #ffffff;
+  --ink: #16181d;
+  --ink-muted: #687080;
+  --hairline: #e7e8ea;
+  --axis: #b6bac2;
   --approvals: #2563eb;
+  --approvals-soft: #eff4fe;
   --denials: #d97706;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --surface: #1a1a19;
-    --ink: #f4f4f3;
-    --ink-muted: #9ca3af;
-    --hairline: #33342f;
-    --approvals: #3b82f6;
-  }
+html {
+  color-scheme: light;
 }
 
 body {
-  background: var(--surface);
+  background:
+    radial-gradient(1100px 500px at 50% -200px, var(--approvals-soft), transparent),
+    var(--surface);
   color: var(--ink);
+  font-feature-settings: 'ss01', 'cv05';
+}
+
+::selection {
+  background: var(--approvals);
+  color: #fff;
 }

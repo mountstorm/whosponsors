@@ -8,60 +8,73 @@ export type YearPoint = {
   denials: number;
 };
 
-const W = 720;
-const H = 300;
-const PAD = { top: 16, right: 8, bottom: 28, left: 44 };
+const W = 760;
+const H = 340;
+const PAD = { top: 20, right: 20, bottom: 40, left: 56 };
 
 function niceMax(v: number) {
   const pow = 10 ** Math.floor(Math.log10(Math.max(v, 1)));
-  return Math.ceil(v / pow) * pow;
+  const unit = pow / 2;
+  return Math.ceil(v / unit) * unit;
 }
 
-// Approvals as bars (primary story), denials as a thin line on the SAME axis.
+function fmt(v: number) {
+  return v >= 1000 ? `${(v / 1000).toFixed(v % 1000 === 0 ? 0 : 1)}k` : String(v);
+}
+
+// X-Y plane: fiscal year on x, petitions on y. Approvals and denials as
+// 2px lines with point markers, crosshair + tooltip on hover.
 export default function TrendChart({ data }: { data: YearPoint[] }) {
   const [hover, setHover] = useState<number | null>(null);
 
-  const max = niceMax(Math.max(...data.map((d) => Math.max(d.approvals, d.denials)), 1));
+  const max = niceMax(
+    Math.max(...data.map((d) => Math.max(d.approvals, d.denials)), 1)
+  );
   const plotW = W - PAD.left - PAD.right;
   const plotH = H - PAD.top - PAD.bottom;
-  const band = plotW / data.length;
-  const barW = Math.min(band - 2, 36); // 2px surface gap between bars
 
-  const x = (i: number) => PAD.left + i * band + band / 2;
+  const x = (i: number) =>
+    PAD.left + (data.length === 1 ? plotW / 2 : (i / (data.length - 1)) * plotW);
   const y = (v: number) => PAD.top + plotH * (1 - v / max);
 
-  const ticks = [0, max / 2, max];
-  const line = data
-    .map((d, i) => `${i ? 'L' : 'M'}${x(i)},${y(d.denials)}`)
-    .join('');
+  const path = (key: 'approvals' | 'denials') =>
+    data.map((d, i) => `${i ? 'L' : 'M'}${x(i)},${y(d[key])}`).join('');
+
+  const area =
+    path('approvals') +
+    ` L${x(data.length - 1)},${y(0)} L${x(0)},${y(0)} Z`;
+
+  const yTicks = [0, 0.25, 0.5, 0.75, 1].map((t) => t * max);
+  // Thin x labels when the series is long so they never collide.
+  const xStep = data.length > 10 ? 2 : 1;
 
   const h = hover === null ? null : data[hover];
 
   return (
     <figure className="w-full">
       <div
-        className="mb-2 flex gap-5 text-xs"
+        className="mb-3 flex gap-6 text-sm"
         style={{ color: 'var(--ink-muted)' }}
         role="list"
         aria-label="Legend"
       >
-        <span role="listitem" className="flex items-center gap-1.5">
+        <span role="listitem" className="flex items-center gap-2">
           <span
-            className="inline-block h-2.5 w-2.5 rounded-sm"
+            className="inline-block h-[3px] w-5 rounded-full"
             style={{ background: 'var(--approvals)' }}
           />
           Approvals
         </span>
-        <span role="listitem" className="flex items-center gap-1.5">
+        <span role="listitem" className="flex items-center gap-2">
           <span
-            className="inline-block h-0.5 w-3"
+            className="inline-block h-[3px] w-5 rounded-full"
             style={{ background: 'var(--denials)' }}
           />
           Denials
         </span>
       </div>
 
-      <div className="relative overflow-x-auto">
+      <div className="relative">
         <svg
           viewBox={`0 0 ${W} ${H}`}
           className="w-full"
@@ -69,7 +82,15 @@ export default function TrendChart({ data }: { data: YearPoint[] }) {
           aria-label="H-1B approvals and denials by fiscal year"
           onMouseLeave={() => setHover(null)}
         >
-          {ticks.map((t) => (
+          <defs>
+            <linearGradient id="approvalsFill" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor="var(--approvals)" stopOpacity="0.14" />
+              <stop offset="100%" stopColor="var(--approvals)" stopOpacity="0" />
+            </linearGradient>
+          </defs>
+
+          {/* gridlines + y labels */}
+          {yTicks.map((t) => (
             <g key={t}>
               <line
                 x1={PAD.left}
@@ -80,55 +101,109 @@ export default function TrendChart({ data }: { data: YearPoint[] }) {
                 strokeWidth="1"
               />
               <text
-                x={PAD.left - 8}
-                y={y(t) + 3.5}
+                x={PAD.left - 10}
+                y={y(t) + 4}
                 textAnchor="end"
-                fontSize="11"
+                fontSize="12"
                 fill="var(--ink-muted)"
               >
-                {t >= 1000 ? `${t / 1000}k` : t}
+                {fmt(t)}
               </text>
             </g>
           ))}
 
-          {data.map((d, i) => {
-            const bh = Math.max(plotH * (d.approvals / max), d.approvals > 0 ? 2 : 0);
-            return (
-              <rect
+          {/* axes */}
+          <line
+            x1={PAD.left}
+            x2={PAD.left}
+            y1={PAD.top}
+            y2={y(0)}
+            stroke="var(--axis)"
+            strokeWidth="1.5"
+          />
+          <line
+            x1={PAD.left}
+            x2={W - PAD.right}
+            y1={y(0)}
+            y2={y(0)}
+            stroke="var(--axis)"
+            strokeWidth="1.5"
+          />
+
+          {/* x labels */}
+          {data.map((d, i) =>
+            i % xStep === 0 ? (
+              <text
                 key={d.year}
-                x={x(i) - barW / 2}
-                y={PAD.top + plotH - bh}
-                width={barW}
-                height={bh}
-                rx="4"
-                fill="var(--approvals)"
-                opacity={hover === null || hover === i ? 1 : 0.45}
-              />
-            );
-          })}
+                x={x(i)}
+                y={H - 12}
+                textAnchor="middle"
+                fontSize="12"
+                fill="var(--ink-muted)"
+              >
+                {d.year}
+              </text>
+            ) : null
+          )}
 
-          <path d={line} fill="none" stroke="var(--denials)" strokeWidth="2" />
+          <path d={area} fill="url(#approvalsFill)" />
+          <path
+            d={path('approvals')}
+            fill="none"
+            stroke="var(--approvals)"
+            strokeWidth="2.5"
+            strokeLinejoin="round"
+          />
+          <path
+            d={path('denials')}
+            fill="none"
+            stroke="var(--denials)"
+            strokeWidth="2"
+            strokeLinejoin="round"
+          />
 
+          {/* crosshair */}
+          {hover !== null && (
+            <line
+              x1={x(hover)}
+              x2={x(hover)}
+              y1={PAD.top}
+              y2={y(0)}
+              stroke="var(--axis)"
+              strokeWidth="1"
+              strokeDasharray="3 3"
+            />
+          )}
+
+          {/* point markers, ringed with surface so overlaps stay legible */}
           {data.map((d, i) => (
-            <text
-              key={d.year}
-              x={x(i)}
-              y={H - 8}
-              textAnchor="middle"
-              fontSize="11"
-              fill="var(--ink-muted)"
-            >
-              {String(d.year).slice(2)}
-            </text>
+            <g key={d.year}>
+              <circle
+                cx={x(i)}
+                cy={y(d.approvals)}
+                r={hover === i ? 5.5 : 4}
+                fill="var(--approvals)"
+                stroke="var(--surface)"
+                strokeWidth="2"
+              />
+              <circle
+                cx={x(i)}
+                cy={y(d.denials)}
+                r={hover === i ? 5 : 3.5}
+                fill="var(--denials)"
+                stroke="var(--surface)"
+                strokeWidth="2"
+              />
+            </g>
           ))}
 
-          {/* hover hit targets: full column, larger than the marks */}
+          {/* hover hit columns, larger than the marks */}
           {data.map((d, i) => (
             <rect
               key={d.year}
-              x={PAD.left + i * band}
+              x={x(i) - (plotW / Math.max(data.length - 1, 1)) / 2}
               y={PAD.top}
-              width={band}
+              width={plotW / Math.max(data.length - 1, 1)}
               height={plotH}
               fill="transparent"
               onMouseEnter={() => setHover(i)}
@@ -138,27 +213,36 @@ export default function TrendChart({ data }: { data: YearPoint[] }) {
 
         {h && hover !== null && (
           <div
-            className="pointer-events-none absolute rounded-lg border px-3 py-2 text-xs shadow-md"
+            className="pointer-events-none absolute top-2 rounded-xl border px-4 py-3 text-sm shadow-lg"
             style={{
               background: 'var(--surface)',
               borderColor: 'var(--hairline)',
               left: `${((x(hover) / W) * 100).toFixed(1)}%`,
-              top: 0,
-              transform: `translateX(${hover > data.length / 2 ? '-110%' : '10%'})`
+              transform: `translateX(${hover > data.length / 2 ? '-112%' : '12%'})`
             }}
           >
             <div className="font-semibold">FY{h.year}</div>
-            <div style={{ color: 'var(--approvals)' }}>
-              {h.approvals.toLocaleString()} approvals
+            <div className="mt-1 flex items-center gap-2">
+              <span
+                className="inline-block h-2 w-2 rounded-full"
+                style={{ background: 'var(--approvals)' }}
+              />
+              <span className="font-mono">{h.approvals.toLocaleString()}</span>
+              <span style={{ color: 'var(--ink-muted)' }}>approvals</span>
             </div>
-            <div style={{ color: 'var(--denials)' }}>
-              {h.denials.toLocaleString()} denials
+            <div className="mt-0.5 flex items-center gap-2">
+              <span
+                className="inline-block h-2 w-2 rounded-full"
+                style={{ background: 'var(--denials)' }}
+              />
+              <span className="font-mono">{h.denials.toLocaleString()}</span>
+              <span style={{ color: 'var(--ink-muted)' }}>denials</span>
             </div>
           </div>
         )}
       </div>
 
-      <details className="mt-3 text-sm">
+      <details className="mt-4 text-sm">
         <summary style={{ color: 'var(--ink-muted)' }} className="cursor-pointer">
           View as table
         </summary>

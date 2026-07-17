@@ -72,8 +72,11 @@ export default function CompanyPage({
         {stats.map((s) => (
           <div
             key={s.label}
-            className="rounded-xl border px-4 py-3"
-            style={{ borderColor: 'var(--hairline)' }}
+            className="rounded-xl border px-4 py-3 shadow-sm"
+            style={{
+              borderColor: 'var(--hairline)',
+              background: 'var(--surface-raised)'
+            }}
           >
             <div
               className="text-xs uppercase tracking-wide"
