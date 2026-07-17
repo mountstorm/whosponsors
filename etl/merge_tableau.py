@@ -10,6 +10,7 @@ Run build.py first; then this. Idempotent per year (delete+insert).
 """
 
 import csv
+import re
 import sqlite3
 import sys
 from pathlib import Path
@@ -19,6 +20,20 @@ from build import normalize  # same entity resolution as the base build
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
 DB = ROOT / "data" / "processed" / "h1b.db"
+
+
+def candidates(name: str):
+    """Normalization variants: Tableau writes '&' as 'AND' and appends
+    'U S' / 'UNITED STATES' / 'D B A ...' where the static files didn't."""
+    forms = [name, name.replace(" AND ", " & ")]
+    forms += [re.sub(r" D B A .*$", "", f) for f in list(forms)]
+    forms += [re.sub(r" (U S|UNITED ST\w*)$", "", normalize(f)) for f in list(forms)]
+    seen = []
+    for f in forms:
+        n = normalize(f)
+        if n and n not in seen:
+            seen.append(n)
+    return seen
 
 
 def read_year(year: int):
@@ -58,10 +73,26 @@ def main(years):
         matched, missed = 0, []
         con.execute("DELETE FROM company_year WHERE fiscal_year = ?", (year,))
         for name, approvals in rows:
-            cid = lookup.get(normalize(name))
+            cid = next(
+                (lookup[n] for n in candidates(name) if n in lookup), None
+            )
             if cid is None:
+                # Genuinely new employer — create it so the year isn't lost.
+                norm = normalize(name)
+                slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+                cid = con.execute(
+                    "SELECT MAX(company_id) + 1 FROM companies"
+                ).fetchone()[0]
+                con.execute(
+                    """INSERT INTO companies
+                       (company_id, display_name, slug, norm,
+                        all_time_approvals, all_time_denials,
+                        first_year, last_year)
+                       VALUES (?, ?, ?, ?, 0, 0, ?, ?)""",
+                    (cid, name, slug, norm, year, year),
+                )
+                lookup[norm] = cid
                 missed.append(name)
-                continue
             con.execute(
                 """INSERT INTO company_year
                    (company_id, fiscal_year, initial_approval, initial_denial,
@@ -84,9 +115,9 @@ def main(years):
                  AND last_year < ?""",
             (year, year, year),
         )
-        print(f"FY{year}: {matched}/{len(rows)} matched", flush=True)
+        print(f"FY{year}: {matched}/{len(rows)} matched to existing companies", flush=True)
         for name in missed:
-            print(f"  unmatched: {name}", flush=True)
+            print(f"  created new: {name}", flush=True)
 
     con.commit()
     con.close()
