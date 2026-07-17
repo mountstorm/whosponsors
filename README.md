@@ -1,29 +1,35 @@
 # WhoSponsors
 
-The honest H-1B sponsorship database. Search any company, see who *actually* sponsors:
-approvals and denials per year (FY2009–FY2023), built from official USCIS data.
+**The honest H-1B database.** Job postings say "visa sponsorship available" — filings say otherwise. WhoSponsors shows real USCIS approval and denial numbers for 324k+ employers (FY2009–FY2025), so international students and workers know who *actually* sponsors before applying.
 
-## Data pipeline
+## Usage
 
+```bash
+# 1. Build the database (downloads USCIS data, ~2 min)
+make data && make build
+
+# 2. Pull recent years from the USCIS Tableau hub (optional)
+./etl/tableau_years.sh 2024 2025
+python3 etl/merge_tableau.py 2024 2025
+
+# 3. Run the site
+cd web && npm install && npm run dev
 ```
-make data     # download 15 years of USCIS H-1B Employer Data Hub CSVs
-make build    # ETL -> data/processed/h1b.db (SQLite) + top_companies.json
-```
 
-- **Source:** [USCIS H-1B Employer Data Hub](https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub) — one row per employer/year with initial/continuing approvals and denials.
-- **Entity resolution:** employer names are normalized (case, punctuation, legal suffixes) and merged via a curated alias table (`ALIASES` in `etl/build.py`) so `COGNIZANT TECH SOLNS US CORP` and `COGNIZANT TECHNOLOGY SOLUTIONS` count as one company. ~325k distinct employers after merging.
-- **Output schema:**
-  - `companies(company_id, display_name, slug, norm, all_time_approvals, all_time_denials, first_year, last_year)`
-  - `company_year(company_id, fiscal_year, initial_approval, initial_denial, continuing_approval, continuing_denial, total_approvals, total_denials)`
+Open http://localhost:3000 — search any company, get its approval/denial trend chart, denial rate, and year-over-year change.
 
-## Roadmap
+## Data
 
-- [x] Phase 1: USCIS data hub ETL → clean `company_year` table
-- [ ] FY2024+ data (only exposed via the interactive hub API — needs endpoint discovery)
-- [ ] Phase 2: DOL LCA disclosure files → salaries, job titles, locations
-- [ ] Phase 3: PERM (green card) data, OG share images, "top movers" leaderboard
-- [ ] Frontend: Next.js search + company trend pages
+- **FY2009–2023:** [USCIS H-1B Employer Data Hub](https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub) static CSVs — full detail, all employers.
+- **FY2024+:** extracted from USCIS's Tableau dashboard (top employers, approvals only — labeled as partial in the UI).
+- Employer name variants (`GOOGLE LLC` / `GOOGLE INC`) are merged via normalization + a curated alias table in `etl/build.py`.
 
-## Requirements
+## Stack
 
-Python 3.11+, `pandas`. Frontend TBD (Next.js).
+Python + pandas ETL → SQLite → Next.js + hand-rolled SVG charts. No external chart or API dependencies.
+
+## Author
+
+**Muzaffar Khaydarov** — [muzaffarkhaydarov.com](https://muzaffarkhaydarov.com) · [LinkedIn](https://www.linkedin.com/in/muzaffar-)
+
+Not legal advice. Data belongs to USCIS; mistakes in merging are mine.
